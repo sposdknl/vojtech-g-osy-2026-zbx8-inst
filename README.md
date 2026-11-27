@@ -104,7 +104,7 @@ Všechny čtyři služby (`mariadb`, `zabbix-server`, `zabbix-agent2`, `apache2`
 
 ## Úprava exportu sposdk.cz pro Zabbix 8.0
 
-**Beze změny.** Export `sposdk.cz_hosts` se do Zabbixu 8.0.0 naimportoval bez jakékoli úpravy. Šablona *Website certificate by Zabbix agent 2* je v Zabbixu 8.0 dostupná, takže host se naimportoval se všemi 14 položkami a 2 triggery. V repozitáři je ponechán jen importovaný soubor.
+**Beze změny.** Export `sposdk.cz_hosts` se do Zabbixu 8.0.0 naimportoval bez jakékoli úpravy. Šablona *Website certificate by Zabbix agent 2* je v Zabbixu 8.0 dostupná, takže ost se naimportoval s 1 položkou, 2 triggery a discovery pravidlem. Po prvním běhu discovery vzniklo celkem 14 položek. . V repozitáři je ponechán jen importovaný soubor.
 
 ## Řešení potíží
 
