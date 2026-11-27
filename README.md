@@ -58,6 +58,11 @@ Skripty používají `set -Eeuo pipefail`, takže při jakékoli chybě provisio
 - Skript heslo nikdy nevypisuje.
 - `.gitignore` vylučuje `.vagrant/`, disky VM (`*.vdi`, `*.vmdk`), `*.box`, `*.log`, `.env`, `*.secret`, `*.pass` a `.db_password`.
 
+
+## Identifikace autora
+ 
+Moje identifikace je na všech snímcích webového rozhraní Zabbixu v adresáři `Images/`: v levém horním rohu pod logem Zabbix je zobrazen název serveru **`Zabbix - Vojtech-G`** (nastaveno v `$ZBX_SERVER_NAME` v `zabbix.conf.php`, výchozí hodnota je ve skriptu `scripts/01-install-zabbix.sh`).
+
 ## Opakovatelnost
 
 - Repozitář a balíčky se instalují jen tehdy, pokud chybí.
