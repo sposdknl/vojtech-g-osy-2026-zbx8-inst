@@ -8,7 +8,7 @@ Připravte reprodukovatelnou instalaci **Zabbix serveru 8.0 LTS** ve virtuální
 
 Svůj studentský repozitář si vytvořte přes [odkaz k zadání v GitHub Classroom](https://osy.sposdk.cz/zadani/osy-2026-zbx8-inst). Výsledkem má být projekt, který lze spustit z čistého klonu příkazem `vagrant up`, bez ruční instalace balíčků uvnitř virtuálního stroje.
 
-## 1. Virtuální stroj a automatizace
+## 1. Virtuální stroj a automatizace!
 
 - Vytvořte `Vagrantfile` pro Debian 13 (například box `bento/debian-13`) a VirtualBox. Nastavte alespoň 2 CPU a 2 GB RAM; při nedostatku paměti na hostiteli můžete po zdůvodnění v dokumentaci parametry upravit.
 - Nastavte hostname a přesměrování HTTP portu na `127.0.0.1` hostitelského počítače. SSH zpřístupněte přes `vagrant ssh`; případné vlastní přesměrování SSH omezte také na `127.0.0.1`.
