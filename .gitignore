@@ -1,0 +1,9 @@
+.vagrant/
+*.vdi
+*.vmdk
+*.box
+*.log
+.env
+*.secret
+*.pass
+.db_password
